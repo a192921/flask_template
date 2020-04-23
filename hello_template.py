@@ -6,7 +6,7 @@ app = Flask(__name__)
 
 @app.route('/<user>')
 def index(user):
-    return render_template('hello.html', user_template=user)
+    return render_template('hello_flash.html', user_template=user)
 
 
 if __name__ == "__main__":
